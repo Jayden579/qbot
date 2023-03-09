@@ -1,20 +1,20 @@
 import { BotConfig } from './structures/types'; 
 
 export const config: BotConfig = {
-    groupId: 0,
+    groupId: 15545244,
     slashCommands: true,
     legacyCommands: {
         enabled: true,
-        prefixes: ['q!'],
+        prefixes: ['-'],
     },
     permissions: {
-        all: [''],
-        ranking: [''],
+        all: ['1083234516719640637'],
+        ranking: ['1083234516719640637'],
         users: [''],
         shout: [''],
         join: [''],
         signal: [''],
-        admin: [''],
+        admin: ['1083234516719640637'],
     },
     logChannels: {
         actions: '',
@@ -25,7 +25,7 @@ export const config: BotConfig = {
         type: 'mongodb',
     },
     api: false,
-    maximumRank: 255,
+    maximumRank: 250,
     verificationChecks: false,
     firedRank: 1,
     suspendedRank: 1,
@@ -56,7 +56,7 @@ export const config: BotConfig = {
         bypassRoleId: '',
     },
     activity: {
-        enabled: false,
+        enabled: true,
         type: 'WATCHING',
         value: 'for commands.',
     },
